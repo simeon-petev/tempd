@@ -22,7 +22,7 @@ app.ws('/terminal', (ws) => {
 
 app.get('/', (req, res) => {
     res.send(`<html><body style="background:#000;color:#fff;">
-        <h2>Teams-Claude Bridge Active</h2>
+        <h2>Bridge Active</h2>
         <div id="terminal"></div>
         <script>
             const ws = new WebSocket('ws://localhost:8200/terminal');
